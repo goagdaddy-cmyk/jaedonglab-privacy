@@ -1,17 +1,16 @@
-# JAEDONGLAB Privacy Hub
+# JAEDONGLAB Privacy Policy
 
-JAEDONGLAB 앱별 개인정보처리방침 공개용 GitHub Pages 저장소입니다.
+이 저장소는 JAEDONGLAB의 **공통 개인정보처리방침** 공개용 저장소입니다.
 
-## 구조
-- `/` : 개인정보처리방침 허브
-- `/app001/` : APP-001 사진 속 글자찾기
-- `/app004/` : APP-004 증명사진 만들기
+## 공식 공통 URL
+https://goagdaddy-cmyk.github.io/jaedonglab-privacy/
 
-향후 APP-002, APP-003 및 신규 앱을 동일한 방식으로 추가합니다.
+모든 신규 앱의 Google Play 개인정보처리방침 URL은 원칙적으로 위 공통 URL을 사용합니다.
 
-## GitHub Pages
-- Branch: `main`
-- Folder: `/ (root)`
+## 운영 기준
+- 공통 개인정보처리방침 본문은 루트 `index.html` 한 곳에서 관리합니다.
+- 새 앱 출시 전, 루트 페이지의 **앱별 주요 처리 안내** 표에 해당 앱의 실제 권한·데이터 처리·SDK를 추가합니다.
+- Google Play의 데이터 보안 설문은 앱별로 실제 구현에 맞게 별도 작성합니다.
+- 기존 `/app001/`, `/app004/` 경로는 과거 링크 호환을 위해 유지할 수 있으나, 신규 등록은 공통 URL을 사용합니다.
 
-공개 허브:
-`https://goagdaddy-cmyk.github.io/jaedonglab-privacy/`
+시행일: 2026-10-09
