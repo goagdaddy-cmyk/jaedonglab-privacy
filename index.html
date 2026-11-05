@@ -36,7 +36,7 @@ footer{text-align:center;color:var(--muted);font-size:13px;margin-top:24px}
 <header>
   <h1>DESIRE LAB 개인정보처리방침</h1>
   <p class="meta">DESIRE LAB이 제공하는 모바일 앱 및 관련 서비스에 공통 적용됩니다.</p>
-  <span class="badge">시행일 2026년 10월 9일 · 최종 갱신 2026년 11월 4일 · 버전 1.4</span>
+  <span class="badge">시행일 2026년 10월 9일 · 최종 갱신 2026년 11월 5일 · 버전 1.5</span>
   <div class="notice">
     DESIRE LAB은 앱별로 필요한 최소 범위의 정보만 처리하며, 앱의 기능에 따라 처리 항목은 달라질 수 있습니다.
     각 앱의 실제 처리 방식은 아래 <strong>앱별 주요 처리 안내</strong>에 함께 표시합니다.
@@ -195,6 +195,12 @@ DESIRE LAB이 사용자의 카드번호 등 전체 결제수단 정보를 직접
 </tr>
 <tr><td><strong>너랑나뭔데 (우리썸)</strong><br><span class="small">com.desireretail.woorisum</span></td><td>이름·별명·성별·출생연월·MBTI, 관심상대·활동·신호·하트·공개 마음기록·반응·신고·인증/광고 검증 정보</td><td>기기 및 Supabase 공용 서버. <a href="#nerangnamwonde">앱별 상세 안내</a> · <a href="#nerang-delete">탈퇴·삭제 요청</a></td><td>Supabase / Google AdMob / UMP</td></tr>
 <tr><td><strong>FLOW SIGN</strong><br><span class="small">com.desirelab.flowsign · v0.9</span></td><td>전광판 문구·스타일·설정(기기 내); 광고 SDK의 IP 주소, 광고/기기 식별자, 상호작용, 진단 정보</td><td>문구와 설정은 기기 내에서 처리·저장하며 DESIRE LAB 서버나 광고주로 전송하지 않음. Google 광고 SDK는 광고·사기방지·측정 정보 등을 네트워크에서 처리 가능</td><td>Google AdMob(편집 화면 배너) / UMP(광고 동의). <a href="flow-sign/">한국어·영어 상세 개인정보처리방침</a></td></tr>
+<tr>
+<td><strong>ScreenLight</strong><br><span class="small">com.desirelab.screenlight · v0.8</span></td>
+<td>화면 밝기와 색감 설정값, 자동 밝기/수동 밝기 상태 및 원래 밝기 복원값(기기 내 저장). 기능 제공을 위한 시스템 설정 변경, 다른 앱 위에 표시, 포그라운드 서비스 및 알림 권한. 화면 내용·사진·메시지·다른 앱의 입력 내용을 수집하거나 녹화하지 않음.</td>
+<td>밝기 조절, 추가 어둡게 및 따뜻한/차가운 색감 필터, 원래 밝기 복원은 기기 내에서 처리. 사용자가 설정한 밝기·색감과 복원 정보는 기기 내부에 저장하며 DESIRE LAB 자체 서버로 전송하지 않음. 앱 삭제 시 앱 내부 설정 데이터는 삭제되나 외부 SDK의 데이터 보관에는 해당 SDK의 정책이 적용됨.</td>
+<td>Google AdMob(앱 하단 배너) / UMP(광고 동의·개인정보 선택). 광고 SDK는 IP 주소, 기기·광고 식별자, 광고 상호작용 및 진단 정보를 광고 게재·측정·부정 사용 방지 등의 목적으로 처리할 수 있음.</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -218,6 +224,13 @@ DESIRE LAB이 사용자의 카드번호 등 전체 결제수단 정보를 직접
 <p><strong>공용 인증과 다른 앱:</strong> 위 앱 탈퇴는 야장온 등 다른 앱 데이터와 공용 인증 계정을 삭제하지 않습니다. 공용 인증 계정 자체 또는 다른 앱 데이터 삭제를 원하면 이메일에 그 범위를 명시해 요청할 수 있습니다. 다른 앱에 미치는 영향을 안내하고 요청자를 확인한 뒤 처리합니다.</p>
 <p><strong>보관과 예외:</strong> 앱 연결 데이터는 탈퇴 완료 시 운영 DB에서 삭제됩니다. 기존 인증을 통한 앱 데이터 재생성을 막기 위해 최소 계정 식별값과 탈퇴 상태는 남습니다. 이는 프로필 복원이나 광고 타기팅에 사용하지 않습니다. Google이 독립적으로 처리하는 광고 데이터는 해당 제공자의 정책을 따릅니다. 백업에 남은 정보의 제거 시점, 별도 보관의 근거·기간 및 삭제 처리 일정은 문의 시 확인·안내합니다.</p>
 <p class="small">익명 인증은 기기에 저장된 정보로 연결됩니다. 앱 삭제·기기 변경·저장 데이터 초기화 후에는 기존 익명 정보에 다시 접근하지 못할 수 있습니다. 타로·궁합은 참고용이며 실제 감정·관계 결과를 보장하지 않습니다.</p>
+</section>
+
+<section id="screenlight">
+<h2>ScreenLight 개인정보 안내 / ScreenLight Privacy Notice</h2>
+<p><strong>Developer:</strong> DESIRE LAB · <strong>Package:</strong> com.desirelab.screenlight</p>
+<p><strong>한국어:</strong> ScreenLight는 회원가입 없이 화면 밝기와 색감을 조절합니다. 사용자가 허용한 시스템 설정 변경 및 화면 오버레이 권한을 사용하며, 조절값과 원래 밝기 복원 정보는 기기에만 보관합니다. 화면 내용, 사진, 메시지 등을 읽거나 녹화하지 않습니다. 앱 하단의 Google AdMob 광고와 광고 동의용 UMP SDK는 광고 식별자, 기기 정보, IP 주소, 광고 상호작용 및 진단 정보를 Google의 정책에 따라 처리할 수 있습니다. 앱 삭제 시 앱 내부 설정은 삭제되며, Google이 처리하는 광고 데이터는 Google 정책에 따릅니다.</p>
+<p><strong>English:</strong> ScreenLight works without an account. It uses user-granted system-setting and display-overlay permissions to adjust screen brightness and apply warm or cool color filters. Brightness, tint preferences, and restoration settings remain on the device and are not uploaded to DESIRE LAB servers. ScreenLight does not read or record screen content, photos, or messages. Google AdMob and the User Messaging Platform (UMP) may process advertising identifiers, device information, IP addresses, ad interactions, and diagnostics under Google's policies for advertising, measurement, fraud prevention, and consent management. Local app preferences are removed when the app is uninstalled; Google independently controls retention of its advertising data.</p>
 </section>
 
 <section>
